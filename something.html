@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, intial-scale=1.0">
+        <title>payemnt form</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: orange;
+            }
+            h1{
+                text-decoration: white;
+                
+                text-align: center;
+            }
+            .container{
+                background-color: rgb(91, 236, 236);
+                text-align: center;
+                
+
+            }
+        </style>
+        <form action="">
+            <h1>login page</h1>
+        <div class="container">
+            <p>first Name:* <input type="text" name="name" required value="first_name"> </p>
+            <p>last Name:* <input type="text" name="name" required value="last_name"> </p>
+            <p>email:* <input type="text" name="name" required value="enter your email"> </p>
+            <p>phonenumber:* <input type="text" name="name" required value="your phone number"> </p>
+            <p>password:* <input type="password" name="name" required value="enter your password"> </p>
+            <p>confirm your password:* <input type="text" name="name" required value="confirm it"> </p>
+        
+            <p>
+                country: 
+                <select name="country" id="country">
+                    <option value="">--select a country</option>
+                    <option value="India">india</option>
+                    <option value="China">china</option>
+                    <option value="Pakistan">pakistan</option>
+                    <option value="Bangladesh">usa</option>
+                
+                </select>
+            </p>
+        <fieldset>
+            <legend>title</legend>
+            <p> 
+                
+                mr. <input type="radio" name="gender" id="mr."> 
+                mrs. <input type="radio" name="gender" id="mrs.">
+                miss. <input type="radio" name="gender" id="miss.">
+
+            </p>
+        </fieldset>
+            <fieldset>
+            <legend>language</legend>
+            <p> 
+                english <input type="radio" name="english" id="mrs.">
+                french <input type="radio" name="french" id="miss.">
+
+            </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>additional information</legend>
+        <p>
+            
+            <textarea name="adress" id="adress" cols="100" rows="7"></textarea> 
+        </p>
+    </fieldset>
+        <p>
+            email: <input type="email" name="email" id="email">
+        </p>
+        <p>
+            pincode: <input type="number" name="pincode" id="pincode">
+        </p>
+        <p>
+            upload any file:
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+        
+        </form>
+    </div>
+    <p>
+        <input type="radio"> i agree to term and condition
+    </p>
+    <button>submit</button>
+    </body>
+</html>
